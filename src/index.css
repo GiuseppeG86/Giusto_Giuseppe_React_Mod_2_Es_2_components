@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  height: 8vh;
+  background-color: rgb(39, 116, 116);
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.nav li a{
+  color: white;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  font-size:x-large;
+  margin-bottom: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  text-align: center;
+}
