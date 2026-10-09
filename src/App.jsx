@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
+import Section from "./Components/Section";
 
 function App() {
     
@@ -9,6 +10,7 @@ function App() {
     <>
     <Navbar />
     <Header lists={lists} />
+    <Section />
     </>
   )
 }
